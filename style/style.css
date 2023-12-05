@@ -1,0 +1,186 @@
+@charset "UTF_8";
+
+@font-face {
+    font-family: 'fontpadrao';
+    src: url('../fonts/zrnic\ rg.otf');
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    color: beige;
+    background-image: linear-gradient(to bottom, rgb(11, 10, 17), rgb(18, 16, 29));
+}
+
+a{
+    text-decoration: none;
+}
+
+div#menu1{
+    display: block;
+    position:relative;
+    width: 100%;
+    padding-top: 7px;
+    margin-top: 3px;
+    background-color:rgb(11, 10, 17);
+}
+
+header{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    padding: 0%;
+}
+
+header a{
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+    margin-right: 3%;
+    text-decoration:none;
+    text-transform:none;
+    text-shadow: 0px 0px 5px rgb(0, 152, 253);
+    color: rgb(0, 152, 253);
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+header a:hover{
+    color: rgb(209, 0, 199);
+    border: solid 1.5px rgb(209, 0, 199);
+    box-shadow: 0px 0px 6px rgb(209, 0, 199);
+    text-shadow: 1px 1px 8px rgb(209, 0, 199);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:37px;
+    background-image: url('../pictures/bgbt.png');
+}
+
+div#contendo{
+    display:block;
+    position: static;
+    margin:auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 0;
+    background-image:linear-gradient(to bottom, rgb(11, 10, 17), rgb(31, 17, 30), rgb(133, 0, 241));
+    box-shadow: 0px 0px 12px rgba(209, 0, 199, 0.822);
+    border-radius: 20px;
+    width: 75%;
+    height: 80%;
+}
+
+img#logomarca{
+    display:block;
+    position:static;
+    margin-top: 1%;
+    margin-left: 10%;
+    max-width: 28%;
+    min-width: 25%;
+}   
+
+img#image1{
+    display:block;
+    position:static;
+    margin-left:64%;
+    margin-top: -50%;
+    width:40%;
+    padding: 0px;
+}
+
+div#contendo h2{
+    text-align: center;
+    padding-top: 10px;
+    font-family:'fontpadrao';
+    font-size:2.0em;
+}
+
+div#contendo p{
+    width: 47%;
+    height: 100%;
+    text-wrap:2px;
+    text-align: justify;
+    text-indent: 6px;
+    padding: 20px;
+}
+
+/* Configuração do footer */
+
+footer{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    width: 100%;
+    height: 160px;
+}
+
+footer a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: auto;
+}
+
+footer > p{
+    padding: 20px;
+
+}
+
+img.contatos{
+    width: 4%;
+    padding-left: 10px;
+}
+
+/* Reponsivo */
+
+@media screen and (max-width:1180px){
+
+    div#contendo{
+        display:block;
+        position: static;
+        margin:auto;
+        margin-top: 8%;
+        margin-bottom: 10%;
+        padding: 0;
+        background-image:linear-gradient(to bottom, rgb(11, 10, 17), rgb(31, 17, 30), rgb(133, 0, 241));
+        box-shadow: 0px 0px 12px rgba(209, 0, 199, 0.822);
+        border-radius: 20px;
+        width: 80%;
+        height: 80%;
+    }
+
+    div#contendo h2{
+        padding-top: 10px;
+        font-family:'fontpadrao';
+        font-size:1.5em;
+        top: 80%;
+    }
+
+    div#contendo p{
+        width: 57%;
+        height: 80%;
+        text-wrap:2px;
+        text-align: justify;
+        text-indent: 6px;
+        padding: 15px;
+    }
+
+    footer{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        margin:auto;
+        width: 100%;
+        height: 335px;
+    }
+    
+}
