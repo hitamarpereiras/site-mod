@@ -110,6 +110,13 @@ div#contendo h3{
     font-family: 'fontpadrao';
 }
 
+ol{
+    margin: auto auto auto 41%;
+    font-size: 1.1rem;
+    padding: 10px 0px 20px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Configuração do footer */
 
 footer{
@@ -137,7 +144,7 @@ img.contatos{
     padding-left: 10px;
 }
 
-/* Reponsivo */
+/* Responsivo */
 
 @media screen and (max-width:1180px){
 
@@ -179,6 +186,52 @@ img.contatos{
         margin:auto;
         width: 100%;
         height: 335px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    
+    div#contendo p{
+        width:100%;
+        height:50%;
+    }
+
+    img.picsdanews{
+        display:block;
+        position:static;
+        margin:auto;
+        width:75%;
+        padding: 3px 5px 8px 5px;
+        border-radius: 10px;
+    }
+
+    footer > p{
+        padding: 20px;
+    
+    }
+    
+    img.contatos{
+        width: 20%;
+        padding-left: 8px;
+    }
+
+    div#contendo{
+        display:block;
+        position: static;
+        margin:auto;
+        margin-top: 4%;
+        margin-bottom: 3%;
+        padding: 0;
+        width: 85%;
+        height: 80%;
+    }
+
+    ol{
+        margin: auto auto auto 20%;
+        font-size: 1.0rem;
+        padding: 8px 0px 14px 0px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
     }
     
 }
